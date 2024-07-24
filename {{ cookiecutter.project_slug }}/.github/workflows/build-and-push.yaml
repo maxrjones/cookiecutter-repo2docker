@@ -40,4 +40,4 @@ jobs:
         # Disable pushing a 'latest' tag, as this often just causes confusion
         # LATEST_TAG_OFF: true
         #
-        IMAGE_NAME: "{{ cookiecutter.image_namespace }}:{{ cookiecutter.image_name }}"
+        IMAGE_NAME: "{{ cookiecutter.image_namespace }}/{{ cookiecutter.image_name }}"
