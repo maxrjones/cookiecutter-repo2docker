@@ -1,0 +1,6 @@
+name: carbonplan
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python={{ cookiecutter.python_version }}

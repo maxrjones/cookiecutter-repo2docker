@@ -1,0 +1,17 @@
+{
+    "image_name": "repo2docker-test-image",
+    "image_namespace": "pangeo",
+    "project_slug": "{{ cookiecutter.image_name.lower().replace(' ', '_') }}",
+    "author_name": "Anonymous",
+    "open_source_license": [
+        "MIT",
+        "BSD",
+        "GPLv3",
+        "Apache Software License 2.0",
+        "None"
+      ],
+    "add_conda_packages": "y",
+    "python_version": "3.10",
+    "base_image": "pangeo/pangeo-notebook",
+    "base_image_tag": "latest"
+}
