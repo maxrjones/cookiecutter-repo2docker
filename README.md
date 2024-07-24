@@ -2,18 +2,6 @@
 
 This repository contains a cookiecutter template for generating docker containers for use with [https://github.com/jupyterhub/repo2docker](https://github.com/jupyterhub/repo2docker).
 
-## TODO
-
-- [ ] Add tests
-- [ ] Configuration for R packages
-- [ ] Configuration for apt packages
-- [ ] Configuration for Julia packages
-- [ ] Configuration for docker registry
-- [ ] Configuration for PyPI packages
-- [ ] Configuration for postBuild code
-- [ ] Configuration for runtimes
-- [ ] Configuration for nix packages
-
 ## Credits
 
 The template was created with guidance from these open-source resources:
