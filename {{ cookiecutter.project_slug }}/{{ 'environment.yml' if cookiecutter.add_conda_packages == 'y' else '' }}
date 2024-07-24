@@ -1,4 +1,3 @@
-name: carbonplan
 channels:
   - conda-forge
   - nodefaults
